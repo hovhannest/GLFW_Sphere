@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{7a55449e-61c5-4075-aff3-e0cb84ad28de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GE">
+      <UniqueIdentifier>{1f0d0e61-04f1-4ddc-a127-f5f10aa95a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{ad1f356c-ea30-4ebc-9001-51f081b83d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GE\Utils">
+      <UniqueIdentifier>{d818bb85-a39b-4beb-aec9-69b380461658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GE\GE_glfw">
+      <UniqueIdentifier>{39158d9b-3dc5-4722-8a4d-fb16e86df5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GE\Interfaces">
+      <UniqueIdentifier>{1e273458-c201-4f97-a209-844388397a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GE\Utils\GenericPlatform">
+      <UniqueIdentifier>{9e65dcd2-7411-402c-b573-26df246d71fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GE\Utils\WindowsPlatform">
+      <UniqueIdentifier>{598e1355-b7e7-4473-b6b4-474e3b1ca64d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\objloader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\quaternion_utils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\shader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\tangentspace.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\text2D.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\texture.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\vboindexer.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\controls.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="GE\GEApp.cpp">
+      <Filter>GE</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GE\GE_glfw\WindowGLFW.cpp">
+      <Filter>GE\GE_glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="GE\GELog.cpp">
+      <Filter>GE</Filter>
+    </ClCompile>
+    <ClCompile Include="GE\Utils\GETime.cpp">
+      <Filter>GE\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GE\Utils\Utils.cpp">
+      <Filter>GE\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GE\Utils\GEFile.cpp">
+      <Filter>GE\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>GE</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GE\GEObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\objloader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\quaternion_utils.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\shader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\tangentspace.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\text2D.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\texture.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\vboindexer.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\controls.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\GEApp.h">
+      <Filter>GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\Interfaces\IWindow.h">
+      <Filter>GE\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\Interfaces\IReusable.h">
+      <Filter>GE\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\Interfaces\IDrawable.h">
+      <Filter>GE\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\Utils\GenericPlatform\GenericPlatform.h">
+      <Filter>GE\Utils\GenericPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\Utils\GenericPlatform\GenericPlatformAtomics.h">
+      <Filter>GE\Utils\GenericPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\Utils\WindowsPlatform\Core_Windows.h">
+      <Filter>GE\Utils\WindowsPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\GE_glfw\WindowGLFW.h">
+      <Filter>GE\GE_glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\GELog.h">
+      <Filter>GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\Utils\GETime.h">
+      <Filter>GE\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\Utils\Singleton.h">
+      <Filter>GE\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\Utils\Utils.h">
+      <Filter>GE\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\Utils\GEConfig.h">
+      <Filter>GE\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\Utils\GEFile.h">
+      <Filter>GE\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\Utils\GESlotArray.h">
+      <Filter>GE\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>GE</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GE\GEObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

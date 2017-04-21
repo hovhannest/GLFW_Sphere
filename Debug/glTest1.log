@@ -1,0 +1,4 @@
+﻿  Sphere.cpp
+d:\cpp\opengl\gltest1_1\ge\geobject.h(22): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+  glTest1.vcxproj -> D:\cpp\OpenGl\glTest1_1\Debug\glTest1.exe
+  glTest1.vcxproj -> D:\cpp\OpenGl\glTest1_1\Debug\glTest1.pdb (Full PDB)
